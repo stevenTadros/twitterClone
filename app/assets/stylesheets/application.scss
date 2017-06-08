@@ -1,15 +1,84 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- */
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+* files in this directory. Styles in this file should be added after the last require_* statement.
+* It is generally better to create a new file per style scope.
+*
+*/
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+background-color: rgba(212,216,212, 0.25);
+}
+
+.navbar {
+background-color: white;
+}
+
+.navbar-brand {
+position: absolute;
+margin-right: 25px !important; 
+display: block;
+left: 60%;
+width: 100px;
+height: 80px;
+padding-top: 2px;
+}
+.container-index {
+margin-left: 5%;
+margin-right: 5%;
+}
+.text {
+color: white;
+font-weight: 375;
+font-size: 150%;
+}
+.footer-links {
+text-align: center;
+color: white;
+margin-top: 15%;
+}
+.log-in {
+float: right;
+width: 300px;
+height: 150px;
+margin-top: 40px;
+}
+.sign-up {
+float: right;
+width: 300px;
+height: 250px;
+}
+.post-panel {
+	margin-top: -21px;
+}
+.post-content {
+	text-align: left;
+	margin-left: 15px;
+}
+.post-title {
+		text-align: left;
+	margin-left: 15px;
+}
+.post-link  {
+	text-align: left;
+}
+.post-owner  {
+color: black;
+font-weight: bold;
+}
+.post-creation  {
+opacity: 0.7;
+}
+.g-links  {
+margin-right: 75px;
+opacity: 0.4;
+font-size: 120%;
+}
